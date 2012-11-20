@@ -12,11 +12,14 @@ Directory contents
 
 dipfinder/data				- The original data released is in the FITS format. The example data in this directory
 						has been formatteed into plaintext column data.
+
 dipfinder/dipfinder.py			- A dip detection program. Has the options to choose the algorithm/k-window/threshold multiplier etc.
 
 classification/plot_oneclass.py		- A one class unsupervised classfication, uses scikits.learn
 
 pyke_modules/kepregr.py 		- A PyKE module to perform a k-NN regression
+
 pyke_modules/kepdip.py			- A PyKE module to perform dip detection
+
 sv_regression/keptest.py		- SV Regression, initially written as a PyKE module. Requires PyRAF/PyKE to launch
 
